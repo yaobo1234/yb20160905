@@ -1,0 +1,17 @@
+@abc : 100px;
+
+.go(@a){
+	border-radius: @a;
+}
+
+
+body{
+	font-size:@abc;
+}
+
+
+
+
+
+
+

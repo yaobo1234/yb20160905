@@ -1,0 +1,31 @@
+@font-face {
+  font-family: asdf;
+  src : url(../.././alex-brush/AlexBrush-Regular.ttf);
+}
+
+html,
+body{
+        height: 100%;
+        width: 100%;
+        overflow: hidden;
+        margin: 0;
+    }
+    body{
+       
+        display: flex;
+        flex-direction: column;
+        font-family: asdf;
+    }
+    header,footer{
+        height: 0.49rem;
+        background: #000000;
+        color: #ffffff;
+        font-size: 0.32rem;
+        line-height: 0.49rem;
+        text-align: center;
+    }
+    main{
+        flex: 1;
+        background: #cccccc; 
+        background-image: url(../images/img01.jpg);
+    }
